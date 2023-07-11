@@ -7,9 +7,9 @@ goarch: amd64
 pkg: parse_spec_bench
 cpu: AMD Ryzen 7 3700X 8-Core Processor             
 BenchmarkParseFullSpec
-BenchmarkParseFullSpec-16                   5930            318176 ns/op
+BenchmarkParseFullSpec-16                   6446            310789 ns/op
 BenchmarkParseAnnotations
-BenchmarkParseAnnotations-16                7147            149987 ns/op
+BenchmarkParseAnnotations-16                8091            144667 ns/op
 PASS
-ok      parse_spec_bench        3.004s
+ok      parse_spec_bench        3.218s
 ```
